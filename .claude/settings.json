@@ -1,0 +1,41 @@
+{
+  "permissions": {
+    "defaultMode": "acceptEdits",
+    "allow": [
+      "Bash(node *)",
+      "Bash(git *)",
+      "Bash(curl *)",
+      "Bash(mkdir *)",
+      "Bash(ls *)",
+      "Bash(cat *)",
+      "Bash(dir *)",
+      "Bash(type *)",
+      "PowerShell(node *)",
+      "PowerShell(git *)",
+      "PowerShell(curl *)",
+      "PowerShell(Invoke-WebRequest *)",
+      "PowerShell(Invoke-RestMethod *)",
+      "PowerShell(New-Item *)",
+      "PowerShell(Get-ChildItem *)",
+      "PowerShell(Get-Content *)",
+      "PowerShell(mkdir *)",
+      "PowerShell(ls *)",
+      "PowerShell(dir *)",
+      "WebFetch",
+      "Read",
+      "Write",
+      "Edit",
+      "Glob",
+      "Grep"
+    ],
+    "deny": [
+      "Bash(npm install *)",
+      "Bash(npm i *)",
+      "Bash(npx *)",
+      "Bash(rm -rf *)",
+      "PowerShell(npm install *)",
+      "PowerShell(npx *)",
+      "PowerShell(Remove-Item * -Recurse *)"
+    ]
+  }
+}
